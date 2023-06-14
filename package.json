@@ -1,0 +1,23 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba Cypress",
+  "main": "index.js",
+  "scripts": {
+    "testCypress": "cypress open",
+    "testCypress-chrome": "cypress run --spec cypress/e2e/5-Nuevo-portal-SE/autentication.cy.js --browser chrome",
+    "testCypress-electron": "cypress run --spec cypress/e2e/5-Nuevo-portal-SE/autentication.cy.js --browser electron",
+    "testCypress-edge": "cypress run --spec cypress/e2e/5-Nuevo-portal-SE/autentication.cy.js --browser edge"
+  },
+  "author": "Edwin Rivera",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.4",
+    "@angular/cli": "^15.2.4",
+    "@angular/common": "^15.2.5",
+    "@angular/core": "^15.2.5",
+    "@angular/platform-browser-dynamic": "^15.2.5",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.9.0"
+  }
+}
